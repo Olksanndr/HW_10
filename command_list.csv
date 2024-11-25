@@ -1,0 +1,55 @@
+    1  clear
+    2  git config --glpbal user.name "Chorney oleksandr"
+    3  clear
+    4  git config --global user.name "Chorney oleksandr"
+    5   git config --global user.email "sashachorney2006@gmail.com"
+    6  git clone https://github.com/Olksanndr/HW_10.git
+    7  touch text_ignore.txt
+    8  cd HW_10
+    9  touch text_ignore.txt
+   10  ls
+   11  nano
+   12  ls
+   13  tail
+   14  cd desktop
+   15  cd hw_10
+   16  ls
+   17  cd hw.10
+   18  ls
+   19  cd hw.10
+   20  cd HW_10
+   21  ls
+   22  nano
+   23  clear
+   24  nano .gitignore
+   25  git status
+   26  git add .gitignore
+   27  git status
+   28  git commit -m "commited"
+   29  touch main_test.txt
+   30  git status
+   31  git add main_test.txt
+   32  git status
+   33  git commit "well"
+   34  git commit -m "well"
+   35  git branch
+   36  git checkout -b new branch
+   37  git checkout -b new_branch
+   38  git branch
+   39  git checkout -b develop
+   40  git branch
+   41  touch develop_test.txt
+   42  git status
+   43  git add develop_test.txt
+   44  git commit -m "done"
+   45  nano develop_test.txt
+   46  git status
+   47  git add develop_test.txt
+   48  git status
+   49  git commit -m "change"
+   50  git checkout main
+   51  git branch
+   52  git merge develop
+   53  git branch
+   54  git status
+   55  history > command_list.csv
